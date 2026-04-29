@@ -7,3 +7,6 @@ const urlParams = new URLSearchParams(queryString);
 
 const username = urlParams.get("name") || 'Your name here, use the "name" param';
 const message = urlParams.get("message") || 'Your message here, user the "message" param';
+
+nameHeader.innerHTML = username
+messageP.innerHTML = message
